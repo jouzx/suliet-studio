@@ -1,0 +1,29 @@
+# Системные файлы (Mac и Windows)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Настройки редакторов кода и IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Логи ошибок
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Если в будущем будете использовать Node.js / npm
+node_modules/
+dist/
+build/
+
+# Секретные файлы (пароли, ключи API, если появятся)
+.env
+.env.local
